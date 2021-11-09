@@ -9,6 +9,7 @@
   --main-btn-color: #2196f3;
   --header-text-color: #212121;
   --hero-bord: #2f303a;
+  --portfolio-button-background-color: #f5f4fa;
 }
 /* ----------------HEADER-------------------- */
 body {
@@ -180,4 +181,37 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--hero-bord);
+}
+
+/*----------------------------------PORTFOLIO-----------------------------------*/
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  background-color: var(--portfolio-button-background-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+
+.example-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.example-after-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
