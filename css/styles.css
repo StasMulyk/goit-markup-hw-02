@@ -80,6 +80,7 @@ body {
 }
 
 .hero-button {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -105,6 +106,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .specialization-title {
@@ -186,6 +188,7 @@ body {
 /*----------------------------------PORTFOLIO-----------------------------------*/
 
 .filter-button {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
